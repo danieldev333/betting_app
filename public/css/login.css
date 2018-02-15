@@ -1,0 +1,36 @@
+body {
+	color: #517d21;
+	overflow: hidden;
+}
+
+.background-rect {
+	background-color: #517d21;
+	transform: rotate(45deg);
+	left: 50%;
+	top: 0px;
+	margin-top: -100px;
+	margin-left: 250px;
+	width: 200%;
+	height: 200%;
+	position: absolute;
+}
+
+.login-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	margin-top: -150px;
+}
+
+a.btn {
+	width: 180px;
+}
+
+.register-container {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+}

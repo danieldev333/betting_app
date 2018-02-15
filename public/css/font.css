@@ -1,0 +1,45 @@
+/* Avenir Next */
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('./fonts/Avenir Next/AvenirNext-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('./fonts/Avenir Next/AvenirNext-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('./fonts/Avenir Next/AvenirNext-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Avenir Next';
+	src: url('./fonts/Avenir Next/AvenirNext-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Helvetica */
+@font-face {
+	font-family: 'Helvetica';
+	src: url('./fonts/Helvetica/Helvetica-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica';
+	src: url('./fonts/Helvetica/Helvetica-Light.ttf') format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Helvetica';
+	src: url('./fonts/Helvetica/Helvetica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

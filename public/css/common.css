@@ -1,0 +1,62 @@
+body {
+	font-family: "Avenir Next";
+	overflow-x: hidden;
+}
+
+
+/* header */
+
+.header .topbar {
+	background-color: #517d21;
+	height: 85px;
+	color: #fff;
+	padding-top:10px;
+}
+
+.header .topbar .topbarlink, 
+.header .topbar .topbarlink:hover {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 25;
+	text-align: center;
+	margin-right: 10px;
+}
+.header .topbar .userIDlabel {
+	background-color: #AAAAAA;
+	font-size: 40;
+    border-radius: 50px;
+    text-align: center;
+    width: 180px;
+    height: 65px; 
+    margin-left: 10px;
+}
+.header .secondbar {
+	border-bottom: 10px solid #517d21;
+}
+
+.header .secondbar .balancelabel {
+	margin-left: 10px;
+}
+.header .secondbar .amountlabel {
+	color: #FF0000;
+}
+
+
+/* sidebar */
+
+.sidebar-container {
+	background-color: #DDDDDD;
+	margin: 10px;
+}
+
+.sidebar-container .title {
+	font-weight: bold;
+	font-size: 26px;
+	border-bottom: 3px solid #eee;
+}
+
+.sidebar-container .event {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}

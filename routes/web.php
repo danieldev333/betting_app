@@ -11,6 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'IndexController@index');
+
+Route::get('/login', 'IndexController@login');
+Route::get('/logout', 'IndexController@logout');
+Route::get('/register', 'IndexController@register');
+Route::get('/register/confirm', 'IndexController@register_confirm');
+
+
+Route::get('/home', 'HomeController@index');
+
+Route::get('/bets', 'BetsController@index');
+Route::get('/bets/place', 'BetsController@placeBet');
+Route::get('/bets/place/finish', 'BetsController@placeBetFinish');
+Route::get('/bets/history', 'BetsController@history');
+
+
+Route::get('/diposit', 'AccountController@diposit');
