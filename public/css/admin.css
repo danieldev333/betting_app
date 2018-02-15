@@ -1,0 +1,52 @@
+body {
+	font-family: "Avenir Next";
+	overflow-x: hidden;
+}
+
+.top-container {
+	background-color: #427638;
+	height: 100px;
+}
+
+.top-container h1 {
+	color: #fff;
+	height: 100px;
+	line-height: 100px;
+	margin-left: 10px;
+}
+
+
+.login-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	margin-top: -150px;
+}
+
+.login-container a.btn {
+	width: 180px;
+}
+
+.header-container {
+	background-color: #427638;
+}
+
+.header-container h1 {
+	color: #fff !important;
+}
+
+.header-container .nav-link {
+	color: #fff !important;
+}
+
+.content {
+	padding: 10px;
+}
+
+.content .btn-dashboard {
+	width: 200px;
+	height: 50px;
+}

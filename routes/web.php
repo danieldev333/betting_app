@@ -28,3 +28,13 @@ Route::get('/bets/history', 'BetsController@history');
 
 
 Route::get('/diposit', 'AccountController@diposit');
+
+
+// Admin
+Route::get('/admin', 'Admin\IndexController@index');
+Route::get('/admin/login', 'Admin\IndexController@login');
+
+Route::get('/admin/dashboard', 'Admin\DashboardController@index');
+Route::get('/admin/payouts/history', 'Admin\PayoutsController@history');
+Route::get('/admin/payouts/pending', 'Admin\PayoutsController@pending');
+Route::get('/admin/payouts/paid', 'Admin\PayoutsController@paid');
