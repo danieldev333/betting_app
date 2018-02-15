@@ -1,12 +1,12 @@
 
 ## Install
 
-- php composer install
+- `php composer install`
 
-- php artisan key:generate
+- `php artisan key:generate`
 
 ## Start
 
-- php artisan serve
+- `php artisan serve`
 
 Open http://localhost:8000
